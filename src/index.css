@@ -1,0 +1,126 @@
+*{
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+body{
+    background-color: white;
+}
+
+#badge-store{
+    border-radius: 100%;
+    background-color: red;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top:10px;
+
+}
+
+.container{
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 290px;
+}
+
+#menu::-webkit-scrollbar{
+    height: 15px;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+#menu::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: blue;
+}
+
+#menu{
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+#ShopItem{
+    user-select: none;
+    flex: 0 0 auto;
+    overflow: hidden;
+    margin-right: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+    width: 20%;
+    height: 200px;
+}
+
+#ShopItem h2{
+    margin:0px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+
+}
+
+.ShopItemImage{
+    -webkit-user-drag: none;
+    user-select: none;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4px;
+    width: 90%;
+    height: 60%;
+    border-radius: 30px;
+
+}
+
+#PurchaseButtonHolder{
+    width: 100%;
+    height: 18px;
+    position: relative;
+
+}
+
+.WhishList,.WhishListed{
+    
+    position: absolute;  
+    right: 10px;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: none;
+}
+
+.WhishListed{
+    background-color: red;
+}
+
+.WhishList:hover{
+    background-color: rgb(253, 193, 82);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.WhishList:active{
+    background-color: rgb(236, 154, 0);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
